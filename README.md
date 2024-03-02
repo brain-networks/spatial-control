@@ -5,4 +5,6 @@ DISCLAIMER: All software is provide <b>as is</b>.
 
 In general, we consider the following linear dynamical system:
 
-$\dot{x} = Ax + Bu$
+<p style="text-align: center;">$\dot{x} = Ax + Bu$</p>
+
+
