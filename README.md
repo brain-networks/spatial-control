@@ -7,4 +7,4 @@ In general, we consider the following linear dynamical system:
 
 $\dot{x} = Ax + Bu$
 
-In this expression, $x$ is a $N_{node} \times 1$ vector that represents the brain "state"; $A$ is a $N_{node} \times N_{node}$ coupling matrix that specifies the connectivity between pairs of nodes; $u$ is a $N_{\kappa} \times x$ set of input signals injected in to $N_{\kappa}$ input sites (nodes); and $B$ is the $N_nodes \times N_{\kappa}$ input matrix that specifies the mapping of input signals to nodes.
+In this expression, $x$ is a $N_{node} \times 1$ vector that represents the brain "state"; $A$ is a $N_{nodes} \times N_{nodes}$ coupling matrix that specifies the connectivity between pairs of nodes; $u$ is a $N_{\kappa} \times x$ set of input signals injected in to $N_{\kappa}$ input sites (nodes); and $B$ is the $N_{nodes} \times N_{\kappa}$ input matrix that specifies the mapping of input signals to nodes.
