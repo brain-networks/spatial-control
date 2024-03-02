@@ -5,6 +5,4 @@ DISCLAIMER: All software is provide <b>as is</b>.
 
 In general, we consider the following linear dynamical system:
 
-\begin{equation}
-\dot{x} = 
-\end{equation}
+$\dot{x} = Ax + Bu$
