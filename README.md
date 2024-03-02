@@ -9,7 +9,7 @@ In this expression, $x$ is a $N_{node} \times 1$ vector that represents the brai
 
 In most applications, $B$ is made up of "canonical" column vectors. The $i$ th canonical column vector has dimensions $N_{nodes} \times 1$, and has entries of 0 except the $i$ th position, which has a value of 1. These columns imply that a given input signal is delivered exactly to one node and one node only.
 
-In our approach, we replace the canonical column vector $i$ with a vector of nonzero entries, whose $j$th element is equal to:
+In our approach, we replace the canonical column vector $i$ with a vector of nonzero entries, whose $j$ th element is equal to:
 
 $B_{ij} = exp(-\beta \times D_{ij})$
 
@@ -23,6 +23,8 @@ What is included here?
 5. <code>main.m</code> : code that reads in data, calculates the "local" and "spatial" input matrices, and calculates global energy for all $11 \times 11$ brain state transitions.
 
 Note that this code is designed to be generic. It's straightforward to replace the structural connectivity, parcel centroids, and brain states with a different dataset.
+
+Note also that there are no additional dependencies; code should work "out of the box".
 
 DISCLAIMER: All software is provide <b>as is</b>.
 
