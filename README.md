@@ -20,7 +20,7 @@ where $D_{ij}$ is the straight-line distance from node $j$ to input node $i$. Th
 What is included here?
 1. <code>data/brain_states.mat</code> : $1000 \times 11$ brain states from the paper.
 2. <code>data/coordinates.mat</code> : $1000 \times 3$ parcel centroids.
-3. <code>data/structural_connectivity.mat</code? : $1000 \times 1000$ structural connectivity matrix
+3. <code>data/structural_connectivity.mat</code>? : $1000 \times 1000$ structural connectivity matrix
 4. <code>optimalControlContinuous.m</code> : Code for obtaining the optimal inputs/trajectories. It takes as input the structural connectivity matrix ($A$), the input matrix ($B$), the parameters $\rho$ and $T$ (see the preprint for details), and the initial and target states, $x(t = 0)$ and $x(t = T)$, respectively.
 5. <code>main.m</code> : code that reads in data, calculates the "local" and "spatial" input matrices, and calculates global energy for all $11 \times 11$ brain state transitions.
 
