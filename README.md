@@ -30,6 +30,6 @@ DISCLAIMER: All software is provide <b>as is</b>.
 
 If you use this code, please cite:
 
-1. Betzel, R. F., Puxeddu, M. G., Seguin, C., Bazinet, V., Luppi, A., Podschun, A., ... & Parkes, L. (2024). Controlling the human connectome with spatially diffuse input signals. bioRxiv, 2024-02.
-2. Gu, S., Betzel, R. F., Mattar, M. G., Cieslak, M., Delio, P. R., Grafton, S. T., ... & Bassett, D. S. (2017). Optimal trajectories of brain state transitions. Neuroimage, 148, 305-317.
-3. Betzel, R. F., Gu, S., Medaglia, J. D., Pasqualetti, F., & Bassett, D. S. (2016). Optimally controlling the human connectome: the role of network topology. Scientific reports, 6(1), 30770.
+1. Betzel, R. F., Puxeddu, M. G., Seguin, C., Bazinet, V., Luppi, A., Podschun, A., ... & Parkes, L. (2024). Controlling the human connectome with spatially diffuse input signals. bioRxiv, 2024-02. [link to paper](https://www.biorxiv.org/content/10.1101/2024.02.27.581006.abstract)
+2. Gu, S., Betzel, R. F., Mattar, M. G., Cieslak, M., Delio, P. R., Grafton, S. T., ... & Bassett, D. S. (2017). Optimal trajectories of brain state transitions. Neuroimage, 148, 305-317. [link to paper](https://www.sciencedirect.com/science/article/pii/S1053811917300058)
+3. Betzel, R. F., Gu, S., Medaglia, J. D., Pasqualetti, F., & Bassett, D. S. (2016). Optimally controlling the human connectome: the role of network topology. Scientific reports, 6(1), 30770. [link to paper](https://www.nature.com/articles/srep30770)
