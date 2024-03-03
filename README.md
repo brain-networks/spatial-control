@@ -22,20 +22,14 @@ What is included here?
 4. <code>optimalControlContinuous.m</code> : Code for obtaining the optimal inputs/trajectories. It takes as input the structural connectivity matrix $A$, the input matrix $B$, the parameters $\rho$ and $T$ (see the preprint for details), and the initial and target states, $x(t = 0)$ and $x(t = T)$, respectively. The brain states should be $1000 \times 1$ vectors.
 5. <code>main.m</code> : code that reads in data, calculates the "local" and "spatial" input matrices, and calculates global energy for all $11 \times 11$ brain state transitions.
 
-The data used here is publicly available and can be downloaded [here](https://zenodo.org/records/2872624#.XOJqE99fhmM).
+The data used here is publicly available and can be downloaded [here](https://zenodo.org/records/2872624#.XOJqE99fhmM). The optimal control function was originally written by Shi Gu (University of Pennsylvania).
 
-The optimal control function was originally written by Shi Gu (University of Pennsylvania).
-
-Note that this code is designed to be generic. It's straightforward to replace the structural connectivity, parcel centroids, and brain states with a different dataset.
-
-Note also that there are no additional dependencies; code should work "out of the box".
+Note that this code is designed to be generic. It's straightforward to replace the structural connectivity, parcel centroids, and brain states with a different dataset. Note also that there are no additional dependencies; code should work "out of the box".
 
 DISCLAIMER: All software is provide <b>as is</b>.
 
 If you use this code, please cite:
 
-Betzel, R. F., Puxeddu, M. G., Seguin, C., Bazinet, V., Luppi, A., Podschun, A., ... & Parkes, L. (2024). Controlling the human connectome with spatially diffuse input signals. bioRxiv, 2024-02.
-
-Gu, S., Betzel, R. F., Mattar, M. G., Cieslak, M., Delio, P. R., Grafton, S. T., ... & Bassett, D. S. (2017). Optimal trajectories of brain state transitions. Neuroimage, 148, 305-317.
-
-Betzel, R. F., Gu, S., Medaglia, J. D., Pasqualetti, F., & Bassett, D. S. (2016). Optimally controlling the human connectome: the role of network topology. Scientific reports, 6(1), 30770.
+1. Betzel, R. F., Puxeddu, M. G., Seguin, C., Bazinet, V., Luppi, A., Podschun, A., ... & Parkes, L. (2024). Controlling the human connectome with spatially diffuse input signals. bioRxiv, 2024-02.
+2. Gu, S., Betzel, R. F., Mattar, M. G., Cieslak, M., Delio, P. R., Grafton, S. T., ... & Bassett, D. S. (2017). Optimal trajectories of brain state transitions. Neuroimage, 148, 305-317.
+3. Betzel, R. F., Gu, S., Medaglia, J. D., Pasqualetti, F., & Bassett, D. S. (2016). Optimally controlling the human connectome: the role of network topology. Scientific reports, 6(1), 30770.
