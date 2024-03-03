@@ -33,6 +33,8 @@ Note that this code is designed to be generic. It's straightforward to replace t
 
 DISCLAIMER: All software is provide <b>as is</b>.
 
+## References
+
 If you use this code, please cite:
 
 1. Betzel, R. F., Puxeddu, M. G., Seguin, C., Bazinet, V., Luppi, A., Podschun, A., ... & Parkes, L. (2024). Controlling the human connectome with spatially diffuse input signals. bioRxiv, 2024-02. [link to paper](https://www.biorxiv.org/content/10.1101/2024.02.27.581006.abstract)
