@@ -17,6 +17,8 @@ $B_{ij} = exp(-\beta \times D_{ij})$
 
 where $D_{ij}$ is the straight-line distance from node $j$ to input node $i$. The parameter $\beta$ controls the rate of decay. In short, this model allows an input signal centered on node $i$ to also reach node $j$, though with a smaller amplitude. We argue that this spatial decay is more realistic. It accounts for imprecision and lack of spatial specificity in neurostimulation (if we imagine that control is enacted exogenously) or the fact that neuronal populations likely do not adhere to parcel boundaries (if we imagine that control is enacted endogenously). That is, if the control signal originate from some neuronal population, that population is likely represented in multiple (spatially-contiguous) parcels.
 
+![](figs/fig.jpeg)
+
 ## What is included here?
 
 1. <code>data/brain_states.mat</code> : $1000 \times 11$ brain states from the paper.
