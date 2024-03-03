@@ -1,6 +1,8 @@
 # Spatially informed optimal control
 This repository includes data and example code for illustrating the incorporation of spatial information into the optimal control framework.
 
+## Background
+
 In general, we consider the following linear dynamical system:
 
 $\dot{x} = Ax + Bu$
@@ -15,12 +17,15 @@ $B_{ij} = exp(-\beta \times D_{ij})$
 
 where $D_{ij}$ is the straight-line distance from node $j$ to input node $i$. The parameter $\beta$ controls the rate of decay. In short, this model allows an input signal centered on node $i$ to also reach node $j$, though with a smaller amplitude. We argue that this spatial decay is more realistic. It accounts for imprecision and lack of spatial specificity in neurostimulation (if we imagine that control is enacted exogenously) or the fact that neuronal populations likely do not adhere to parcel boundaries (if we imagine that control is enacted endogenously). That is, if the control signal originate from some neuronal population, that population is likely represented in multiple (spatially-contiguous) parcels.
 
-What is included here?
+## What is included here?
+
 1. <code>data/brain_states.mat</code> : $1000 \times 11$ brain states from the paper.
 2. <code>data/coordinates.mat</code> : $1000 \times 3$ parcel centroids.
 3. <code>data/structural_connectivity.mat</code> : $1000 \times 1000$ structural connectivity matrix
 4. <code>optimalControlContinuous.m</code> : Code for obtaining the optimal inputs/trajectories. It takes as input the structural connectivity matrix $A$, the input matrix $B$, the parameters $\rho$ and $T$ (see the preprint for details), and the initial and target states, $x(t = 0)$ and $x(t = T)$, respectively. The brain states should be $1000 \times 1$ vectors.
 5. <code>main.m</code> : code that reads in data, calculates the "local" and "spatial" input matrices, and calculates global energy for all $11 \times 11$ brain state transitions.
+
+## Notes and disclaimers
 
 The data used here is publicly available and can be downloaded [here](https://zenodo.org/records/2872624#.XOJqE99fhmM). The optimal control function was originally written by Shi Gu (University of Pennsylvania).
 
